@@ -4,7 +4,12 @@
 
 
 function hobbies (hobbyOne, hobbyTwo, hobbyThree){
-    const risultato = [hobbyOne, hobbytwo, hobbyThree];
+    const risultato = [hobbyOne, hobbyTwo, hobbyThree];
+    return risultato
 }
 
-console.log (hobbies)
+console.log (hobbies('pallavolo', 'paddle', 'beachvolley'))
+
+module.exports = {
+    hobbies
+}
