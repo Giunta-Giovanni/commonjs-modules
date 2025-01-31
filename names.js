@@ -3,18 +3,11 @@
 // 2. Esporta la funzione dal file. 
 
 
-function personalData (nome, cognome){
-    const data = {
-        firstName: nome,
-        lastName: cognome
-    }
-    return data
-
+function personalData (firstName, lastName){
+    return {
+        firstName: firstName,
+        lastName: lastName
+    };
 }
-
-const name = 'Giovanni'
-const surname = 'Giunta'
-
-console.log (personalData(name, surname));
 
 module.exports = personalData;

@@ -3,11 +3,8 @@
 // 2. Esporta la funzione dal file.
 
 
-function hobbies (hobbyOne, hobbyTwo, hobbyThree){
-    const risultato = [hobbyOne, hobbyTwo, hobbyThree];
-    return risultato
+function createHobbies (hobbyOne, hobbyTwo, hobbyThree){
+    return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
-console.log (hobbies('pallavolo', 'paddle', 'beachvolley'))
-
-module.exports = hobbies;
+module.exports = createHobbies;
