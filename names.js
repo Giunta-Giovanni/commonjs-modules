@@ -17,6 +17,4 @@ const surname = 'Giunta'
 
 console.log (personalData(name, surname));
 
-module.exports = {
-    personalData
-}
+module.exports = personalData;

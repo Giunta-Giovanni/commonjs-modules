@@ -10,6 +10,4 @@ function hobbies (hobbyOne, hobbyTwo, hobbyThree){
 
 console.log (hobbies('pallavolo', 'paddle', 'beachvolley'))
 
-module.exports = {
-    hobbies
-}
+module.exports = hobbies;
